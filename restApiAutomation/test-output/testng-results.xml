@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="3749" started-at="2018-12-14T17:43:15Z" finished-at="2018-12-14T17:43:18Z">
+    <groups>
+    </groups>
+    <test name="Testin Rest API" duration-ms="3749" started-at="2018-12-14T17:43:15Z" finished-at="2018-12-14T17:43:18Z">
+      <class name="com.qa.tests.postApiTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.postApiTest@4b9e13df]" name="setUp" is-config="true" duration-ms="1" started-at="2018-12-14T17:43:17Z" finished-at="2018-12-14T17:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="postApi()[pri:0, instance:com.qa.tests.postApiTest@4b9e13df]" name="postApi" duration-ms="1019" started-at="2018-12-14T17:43:17Z" finished-at="2018-12-14T17:43:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postApi -->
+      </class> <!-- com.qa.tests.postApiTest -->
+      <class name="com.qa.tests.GetAPITest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@cb5822]" name="setUp" is-config="true" duration-ms="5" started-at="2018-12-14T17:43:15Z" finished-at="2018-12-14T17:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITest()[pri:0, instance:com.qa.tests.GetAPITest@cb5822]" name="getAPITest" duration-ms="1735" started-at="2018-12-14T17:43:15Z" finished-at="2018-12-14T17:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.tests.GetAPITest@cb5822]" name="setUp" is-config="true" duration-ms="1" started-at="2018-12-14T17:43:16Z" finished-at="2018-12-14T17:43:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="getAPITestWithHeader()[pri:0, instance:com.qa.tests.GetAPITest@cb5822]" name="getAPITestWithHeader" duration-ms="958" started-at="2018-12-14T17:43:16Z" finished-at="2018-12-14T17:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAPITestWithHeader -->
+      </class> <!-- com.qa.tests.GetAPITest -->
+    </test> <!-- Testin Rest API -->
+  </suite> <!-- Suite -->
+</testng-results>
